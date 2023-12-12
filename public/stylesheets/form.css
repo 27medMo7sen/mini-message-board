@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: cornflowerblue;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #c0c0c0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+#name{
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+}
+#txt{
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+}
+#btn{
+border-radius: 10px;
+  border: none;
+}#btn:hover{
+  background-color: green;
+  cursor: pointer;
+  color: wheat;
+}

@@ -1,0 +1,76 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #161A30;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    flex-basis: 600px;
+    height: auto;
+    background-color: #B6BBC4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #31304D;
+    margin: 10px;
+}
+.cool{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #161A30;
+    /*border-radius: 0 0 50% 50%;*/
+}
+#btn{
+    background-color: #B6BBC4;
+    border:none ;
+    height: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+#btn:hover{
+    background-color: #31304D;
+    color: wheat;
+}
+.text{
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-corner {
+    background-color: #31304D;
+}
+::-webkit-scrollbar-track {
+    background-color: #31304D;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #161A30;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
